@@ -1,28 +1,43 @@
-@import url('https://fonts.googleapis.com/css?family=Cantarell|Dosis|Economica:400,700|Open+Sans+Condensed:300|Poiret+One|Quicksand:400,500|Rajdhani|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Cantarell|Dosis|Economica:400,700|Open+Sans+Condensed:300|Poiret+One|Quicksand:400,500|Rajdhani|Roboto|Bungee+Shade|Alfa+Slab+One|Lato:100');
 
 body {
     background-color: white;
     
 }
 #mainTitle {
-    font-family: 'Poiret One';
-    color:;
+    font-family: 'Bungee Shade', sans-serif;
+    color: black;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     
 }
 
 #subTitle {
     font-family: 'Poiret One';
     text-align: center;
-    color: deepskyblue;
+    color: black;
     font-size: 30px;
+    
+}
+
+#buffer {
+    background-color: skyblue;
+    padding-top:10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: solid;
+/*    border-color: aqua;*/
+/*    border-color: orangered;*/
+    border-color: black;
+    border-width: thick;
+    
     
 }
 
 hr {
      margin-bottom: 50px; 
-    color: aliceblue;
+
     
 }
 
@@ -38,7 +53,7 @@ hr {
 
 a {
     text-decoration: none;
-    color: darkseagreen;
+    color: orangered;
     font-family: 'Economica';
     font-size: 40px;
     text-align: center;
@@ -47,7 +62,8 @@ a {
 
 a:hover {
     text-decoration: none;
-    color:aquamarine;
+/*    color:aquamarine;*/
+    color: deeppink;
     
 }
 
